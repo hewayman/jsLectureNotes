@@ -1,0 +1,102 @@
+/* GENERAL SETUP */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background: linear-gradient(130deg,#b2beca 0%,#537eb3 30%, #a56c6c 80%);
+}
+
+body {
+    width: 80vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2 {
+    font-family: 'Antic Slab', serif;
+    color: #2a2a2a;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    /* horizontal shadow, vertical shadow, blur radius, color */
+    text-shadow: 10px 10px 10px rgb(59, 59, 59);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3rem;
+    /* color: #2a2a2a; */
+}
+
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    color: #1d1d1d;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* HEADER LAYOUT */
+
+header {
+    margin-bottom: 10px;
+}
+
+main, header, nav, article, aside, footer, section {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1%;
+}
+
+nav {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* MAIN LAYOUT */
+
+main {
+    display: flex;
+}
+
+section, article {
+    flex: 4;
+    /* section and article will take up 80% of viewport (4/(1+4)) */
+}
+
+aside {
+    /* aside will only take up 20% of viewport (1/(1+4)) */
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+}
+
+aside a {
+    float: left;
+    width: 50%;
+}
+
+aside img {
+    max-width: 100%;
+}
+
+footer {
+    margin-top: 10px;;
+}
