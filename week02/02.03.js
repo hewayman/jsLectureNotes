@@ -119,7 +119,11 @@ let f = (x) => x + 5 ; // left of arrow - (x) - takes in value; right of arrow -
 console.log(f(50));
 
 // block-body arrow function (block of code to right of arrow)
+<<<<<<< HEAD
 // need to return if block-body is used
+=======
+// need to reutrn if block-body is used
+>>>>>>> c90055c15874bae3d31f51df74448730c5b4c7a6
 
 let g = (x) => {
     console.log(x); // 7
